@@ -1,11 +1,4 @@
-import {
-  Card,
-  CardBody,
-  HStack,
-  Skeleton,
-  SkeletonCircle,
-  SkeletonText,
-} from "@chakra-ui/react";
+import { Card, CardBody, Skeleton, SkeletonText } from "@chakra-ui/react";
 
 function GenreListSkeleton() {
   return (

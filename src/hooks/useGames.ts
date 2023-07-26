@@ -15,7 +15,7 @@ export interface Game {
 }
 
 function useGames() {
-  useData<Game>("/games");
+  return useData<Game>("/games");
 }
 
 export default useGames;
